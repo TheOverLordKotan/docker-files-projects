@@ -1,0 +1,6 @@
+docker build --tag "docker-hello-world:latest"
+
+docker run docker-hello-world:latest
+
+docker run hello-world
+docker run alpine:latest "echo" "Hello, World"
